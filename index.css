@@ -1,0 +1,51 @@
+body {
+    background-image: url(emotiguy.jpg);
+    background-size:cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 5em;
+    margin-top: 100px;
+}
+h1:hover {
+    color: #ffcc00;
+    text-shadow: 2px 2px 4px #ffffff;
+    transition: color 0.2s ease-in-out, text-shadow 0.2s ease-in-out;
+}
+
+h2 {
+    font-size: 2em;
+}
+h2:hover {
+    color: #ffcc00;
+    text-shadow: 2px 2px 4px #ffffff;
+    transition: color 0.2s ease-in-out, text-shadow 0.2s ease-in-out;
+}
+
+button {
+    background-color: #ffffff;
+    color: #1f1f1f;
+    border:#434141;
+    padding: 5px 10px;
+    font-size: 1.5em;
+    cursor:grab;
+    border-radius: 5%;
+}
+button:hover {
+    background-color: #ffcc00;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 4px #ffffff;
+    transition: background-color 0.1s ease-in, transform 0.1s ease-in;
+}
+
+input {
+    background-color: #e2e2e2;
+    color: #1f1f1f;
+    border: #434141;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+}
