@@ -49,3 +49,17 @@ input {
     height: 40px;
     margin-top: 20px;
 }
+
+.emotibutton {
+    background-color: #ffffff;
+    color: #1f1f1f;
+    border: #434141;
+    padding: 5px 10px;
+    border-radius: 5%;
+}
+.emotibutton:hover {
+    background-color: #ffcc00;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 4px #ffffff;
+    transition: background-color 0.1s ease-in, transform 0.1s ease-in;
+}
